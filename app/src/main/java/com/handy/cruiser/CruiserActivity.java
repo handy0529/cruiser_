@@ -34,6 +34,7 @@ public class CruiserActivity extends Activity implements View.OnClickListener {
 //                        .setAction("Action", null).show();
 //            }
 //        });
+
         initBtn();
     }
 
