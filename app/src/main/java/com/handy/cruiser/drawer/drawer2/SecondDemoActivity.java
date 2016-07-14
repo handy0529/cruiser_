@@ -36,43 +36,24 @@ public class SecondDemoActivity extends FragmentActivity implements
 	private void init() {
 		mDrawerLayout = (DrawerLayout) findViewById(R.id.id_drawerlayout2);
 		mDrawerLayout.setDrawerListener(new DrawerListener() {
-			/**
-			 * �����뻬��״̬�ı��ʱ�򱻵���
-			 * ״ֵ̬��STATE_IDLE������--0��, STATE_DRAGGING����ק��--1��, STATE_SETTLING���̶�--2����֮һ��
-			 * ����򿪵�ʱ�򣬵�����룬drawer��״̬�ͻ���STATE_DRAGGING��Ȼ����STATE_IDLE
-			 */
 			@Override
 			public void onDrawerStateChanged(int arg0) {
-				Log.i("drawer", "drawer��״̬��" + arg0);
+				Log.i("drawer", "aaaaaa" + arg0);
 			}
-			/**
-			 * �����뱻������ʱ����ô˷���
-			 * arg1 ��ʾ �����ķ�ȣ�0-1��
-			 */
 			@Override
 			public void onDrawerSlide(View arg0, float arg1) {
 				Log.i("drawer", arg1 + "");
 			}
-			/**
-			 * ��һ�����뱻��ȫ�򿪵�ʱ�򱻵���
-			 */
 			@Override
 			public void onDrawerOpened(View arg0) {
-				Log.i("drawer", "���뱻��ȫ���ˣ�");
+				Log.i("drawer", "bbbbb");
 			}
-			/**
-			 * ��һ��������ȫ�رյ�ʱ����ô˷���
-			 */
 			@Override
 			public void onDrawerClosed(View arg0) {
-				Log.i("drawer", "���뱻��ȫ�ر��ˣ�");
+				Log.i("drawer", "cccccc");
 			}
 		});
 		
-		/**
-		 * Ҳ����ʹ��DrawerListener������SimpleDrawerListener, 
-		 * ������ActionBarDrawerToggle�������(���FirstDemoActivity)
-		 */
 		mDrawerLayout.setDrawerListener(new DrawerLayout.SimpleDrawerListener() {
 			@Override
 			public void onDrawerClosed(View drawerView) {

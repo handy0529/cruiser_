@@ -28,33 +28,19 @@ import android.widget.Toast;
 
 import com.handy.cruiser.R;
 
-/**
- * ����ǹٷ���demo
- * @author Admin
- *
- */
+
 public class FirstDemoActivity extends FragmentActivity implements
 		OnItemClickListener {
 
-	/**
-	 * ���벼��
-	 */
+
 	private DrawerLayout mDrawerLayout;
-	/**
-	 * ���벼���е�listview
-	 */
+
 	private ListView mDrawerList;
-	/**
-	 *
-	 */
+
 	private ActionBarDrawerToggle mDrawerToggle;
-	/**
-	 * actionbar����ʾԭ�еı���
-	 */
+
 	private CharSequence mDrawerTitle;
-	/**
-	 * actionbar����ʾitemlist�ı���
-	 */
+
 	private CharSequence mTitle;
 	private String[] mPlanetTitles;
 
@@ -72,7 +58,6 @@ public class FirstDemoActivity extends FragmentActivity implements
 		getActionBar().setDisplayHomeAsUpEnabled(true);
 		getActionBar().setHomeButtonEnabled(true);
 
-		//ʹ��ActionBarDrawerToggle��Ϊ������
 		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout,
 				R.drawable.ic_drawer, R.string.drawer_open,
 				R.string.drawer_close) {
