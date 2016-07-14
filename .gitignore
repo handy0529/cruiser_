@@ -2,3 +2,5 @@
 .gitignore
 app/libs/
 app/src/androidTest/java/com/jacksen/
+.idea
+.gradle
