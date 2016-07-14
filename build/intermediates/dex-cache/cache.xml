@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/handy/Desktop/Code/git/handy/Cruiser/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4fcf0b1879f8caf497c073e1432d398e9e2988c1">
+        <dex dex="/Users/handy/Desktop/Code/git/handy/Cruiser/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.0_274d2bf6d04eb0016a5a5ef1177bfed5c8cc599a.jar" />
+    </item>
+    <item
+        jar="/Users/handy/Desktop/Code/git/handy/Cruiser/app/build/intermediates/exploded-aar/com.android.support/design/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="/Users/handy/Desktop/Code/git/handy/Cruiser/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.0_01f1139d197f68dfe436fbed512c995633b5742e.jar" />
+    </item>
+    <item
+        jar="/Users/handy/Desktop/Code/git/handy/Cruiser/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="/Users/handy/Desktop/Code/git/handy/Cruiser/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.0_d1ab1de816f83ec4575307a419a52216a3097bac.jar" />
+    </item>
+    <item
+        jar="/Users/handy/Desktop/Code/git/handy/Cruiser/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="/Users/handy/Desktop/Code/git/handy/Cruiser/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0_541e4ef5ec271b610956a84c600faef5deeacf98.jar" />
+    </item>
+    <item
+        jar="/Users/handy/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.0/support-annotations-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="990e7f98a7bad86a40b1f0bcfeb039023afd0839">
+        <dex dex="/Users/handy/Desktop/Code/git/handy/Cruiser/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0_0a920894734f2a265c5881f1629a16965b7688ba.jar" />
+    </item>
+
+</items>
